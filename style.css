@@ -1,0 +1,76 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+border-radius: 20px;
+;
+}
+body{background: black;
+background-image: url(./assets/Disney-World-768x393.jpg);}
+
+main{
+width:200px;
+padding: 15px 45px 30px 40px ;  
+margin-top: 5px;
+margin-left:600px ;
+border-radius:20px;
+background:rgb(64, 177, 185);
+
+}
+input{width: 122px;
+margin-top: 5px;
+border-radius: 20px;
+}
+button{margin-top: 5px;
+width:20px;
+width: 120px;
+cursor:pointer
+
+}
+p{margin-left: 10px;}
+ 
+div{padding: 20px 30px 10px ;  
+border-radius: 10px;
+background: aliceblue;
+margin-top: 15px;
+width: 122px;
+
+}
+
+.img1{width: 200px;
+    height: 130px;
+margin-left: 600px;
+margin-top: 20px;
+}
+
+.vector{padding: 10px;
+margin-right: 40px;}
+
+
+.img{margin-left: 2px;}
+
+
+@media (max-width:1000px) {
+
+
+main{display: block;
+float: inline-start;
+    margin-bottom: 10px;
+    margin-left: 90px;
+
+}
+.img1{
+margin-top: 10px;margin-left: 90px;
+
+
+}
+}
+
+
+
+
+
+
+
+
+
+
