@@ -5,28 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>disney conversor</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     
 </head>
 
 <body>
-    <script src="./script.js"></script>
+    
     <img class="img1" src="./assets/loney.webp">
     <main>
         <section>
             <label><b>converter de</b></label>
             <select>
-                <option>Real Brasileiro</option>
-                <option>Dólar Americano</option>
+                <option>R$ Real Brasileiro</option>
+        
             </select>
             <label><b>converter para</b></label>
-            <select>
-                <option>Dólar Americano</option>
-                <option>Euro</option>
+            <select class = "selecter">
+                <option value="Dolar">US$ Dólar Americano</option>
+                <option value="Euro">€ Euro</option>
             </select>
 
-            <input class="main-input" placeholder="10.000 ">
-            <button class ="but">Converter</button>
+            <input class ="main-input" placeholder="R$10.000 ">
+            <button id ="but"><B>Converter</B></button>
 
         </section>
         
@@ -35,21 +35,19 @@
 
             <img  class=img  src="./assets/brasil 2.png">
             <p><b>Real</b></p>
-            <p class="valor1">0.00R$</p>
+            <p class="valor1" value="Dólar">0.00R$</p>
             <img class="vector" src="./assets/Vector.png">
 
             <img class="img" src="./assets/estados-unidos (1) 1.png">
             <P><B>Dólar</B></P>
-            <p class="valor2">0.00$</p>
+            <p class="valor2" value="Euro">0.00$</p>
 
         </div>
 
-
     </main>
 
-
-
 </body>
+<script src="./script.js"></script>
 
 
 </html>

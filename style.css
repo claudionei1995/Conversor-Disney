@@ -1,76 +1,118 @@
-*{margin: 0;
-padding: 0;
-box-sizing: border-box;
-border-radius: 20px;
-;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    ;
 }
-body{background: black;
-background-image: url(./assets/Disney-World-768x393.jpg);}
 
-main{
-width:200px;
-padding: 15px 45px 30px 40px ;  
-margin-top: 5px;
-margin-left:600px ;
-border-radius:20px;
-background:rgb(64, 177, 185);
+body {
+    background: black;
+    background-image: url(./assets/Disney-World-768x393.jpg);
+}
 
-}
-input{width: 122px;
-margin-top: 5px;
-border-radius: 20px;
-}
-button{margin-top: 5px;
-width:20px;
-width: 120px;
-cursor:pointer
-
-}
-p{margin-left: 10px;}
- 
-div{padding: 20px 30px 10px ;  
-border-radius: 10px;
-background: aliceblue;
-margin-top: 15px;
-width: 122px;
+main {
+    width: 250px;
+    padding: 15px 45px 15px 40px;
+    margin-top: 5px;
+    margin-left: 550px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
 
 }
 
-.img1{width: 200px;
-    height: 130px;
-margin-left: 600px;
-margin-top: 20px;
-}
-
-.vector{padding: 10px;
-margin-right: 40px;}
-
-
-.img{margin-left: 2px;}
-
-
-@media (max-width:1000px) {
-
-
-main{display: block;
-float: inline-start;
-    margin-bottom: 10px;
-    margin-left: 90px;
+input {
+    width: 150px;
+    margin-top: 5px;
+    border-radius: 20px;
+    height: 20px;
 
 }
-.img1{
-margin-top: 10px;margin-left: 90px;
 
-
+button {
+    margin-top: 5px;
+    width: 150px;
+    cursor: pointer;
+    height: 22px;
+    background-color: aliceblue;
 }
+
+p {
+    margin-left: 10px;
+    ;
 }
 
+div {
+    padding: 20px 60px 20px;
+    border-radius: 10px;
+    background: aliceblue;
+    margin-top: 10px;
+    width: 176px;
+    background-color: black;
+    color: aliceblue;
+}
+
+section {
+    width: 170px;
+    height: 140px;
+    border-radius: 10px;
+    margin-left: 2px;
+    background-color: black;
+    color: aliceblue;
+    padding-left: 9px;
+    
+    
+}
+
+select {
+    width: 150px;
+}
+
+option {
+    margin-left: 20px;
+}
+
+.img1 {
+    width: 200px;
+    height: 110px;
+    margin-left: 576px;
+    margin-top: 20px;
+}
+
+.vector {
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.img {
+    margin-left: 3px;
+}
+
+.valor1 {
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.valor2 {
+    font-size: 17px;
+}
+
+@media (max-width:800px) {
 
 
+    main {
+        display: block;
+        float: inline-start;
+        margin-bottom: 10px;
+        margin-left: 90px;
+        margin-top: 10px;
+
+    }
+
+    .img1 {
+        margin-top: 100px;
+        margin-left: 115px;
 
 
-
-
-
-
-
+    }
+}
